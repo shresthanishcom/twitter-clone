@@ -1,37 +1,27 @@
-* {
-  width: 0px;
-  height: 0px;
-  box-sizing: border-box;
-}
-.container {
+.Container {
+  width: 100vw;
   height: 100vh;
-  width: 98vw;
   border: 2px black solid;
   display: grid;
-  grid-template-columns: minmax(300px, 1000px) minmax(300px, 1000px);
+  grid-template-columns: minmax(300px, 1fr) minmax(700px, 1fr);
 }
-.twitter-detail {
-  height: 100vh;
-  width: 50vw;
-  border: blue 2px solid;
+
+.signIn {
+  height: 200px;
+  width: 200px;
+  border: 2px solid grey;
   display: grid;
-  display: ;
+  justify-content: center;
+  align-items: center;
 }
-.highlights {
-  height: 300px;
-  width: 400px;
-}
-.btn-design {
-  border: 2px red solid;
-  border-radius: 5px;
-  height: 20px;
-  width: 400px;
-  display: block;
-}
-h1,
-h3 {
-  border: solid 2px green;
-  height: fit-content;
+
+.sign-width {
   width: fit-content;
-  display: block;
+  height: 30px;
+  position: relative;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+.terms {
+  width: fit-content;
 }
