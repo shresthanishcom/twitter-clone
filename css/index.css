@@ -1,0 +1,37 @@
+* {
+  width: 0px;
+  height: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 98vw;
+  border: 2px black solid;
+  display: grid;
+  grid-template-columns: minmax(300px, 1000px) minmax(300px, 1000px);
+}
+.twitter-detail {
+  height: 100vh;
+  width: 50vw;
+  border: blue 2px solid;
+  display: grid;
+  display: ;
+}
+.highlights {
+  height: 300px;
+  width: 400px;
+}
+.btn-design {
+  border: 2px red solid;
+  border-radius: 5px;
+  height: 20px;
+  width: 400px;
+  display: block;
+}
+h1,
+h3 {
+  border: solid 2px green;
+  height: fit-content;
+  width: fit-content;
+  display: block;
+}

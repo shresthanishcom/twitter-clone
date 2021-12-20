@@ -1,0 +1,9 @@
+.twitter-background {
+  height: 500px;
+  width: 500px;
+  background-image: url("/pictures/twitter-background.png");
+}
+.twitter-logo {
+  height: 200px;
+  width: 200px;
+}
