@@ -1,0 +1,27 @@
+.Container {
+  width: 100vw;
+  height: 100vh;
+  border: 2px black solid;
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) minmax(700px, 1fr);
+}
+
+.signIn {
+  height: 200px;
+  width: 200px;
+  border: 2px solid grey;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-width {
+  width: fit-content;
+  height: 30px;
+  position: relative;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+.terms {
+  width: fit-content;
+}
